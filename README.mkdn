@@ -1,4 +1,4 @@
-LineageOS
+AlrightOS
 ===========
 
 Getting started
@@ -6,15 +6,15 @@ Getting started
 
 To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the AlrightOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-19.1 --git-lfs
+repo init -u https://github.com/AlrightOS-BrokenLab/manifest.git -b 12.1 --git-lfs
 ```
 Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+Please see the [AlightOS Docs](https://docs.alrightos.xyz/docs/) for building instructions, by device.
 
 
 Submitting patches
