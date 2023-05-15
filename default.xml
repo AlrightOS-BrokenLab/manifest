@@ -12,6 +12,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-12.1.0_r22" />
+          
+  <remote  name="alright-broken"
+           fetch="https://github.com/AlrightAndroid-Brokenlab"
+           revision="Q"
+           review="" />
 
   <default revision="refs/heads/lineage-19.1"
            remote="github"
@@ -811,7 +816,6 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp" />
@@ -1050,6 +1054,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/alright.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
