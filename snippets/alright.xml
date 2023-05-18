@@ -3,7 +3,16 @@
     <!-- Manifest -->
     <project path="android" name="platform_manifest" remote="alright-broken"/>
 
+    <!-- Vendor -->
+    <project path="vendor/lineage" name="vendor_lineage" remote="alright-broken" />
 
+    <!-- System -->
+    <project path="system/core" name="system_core" remote="alright-broken" />
+    
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="frameworks_base" remote="alright-broken" />
+    
     <!-- Apps -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alright-broken" />
+    <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="alright-broken" />
 </manifest>
