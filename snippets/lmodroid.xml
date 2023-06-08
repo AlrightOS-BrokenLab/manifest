@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="lmodroid"
+        fetch="https://git.libremobileos.com"
+        revision="thirteen"
+        review="gerrit.libremobileos.com" />
+
+  <!-- External -->
+  <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" />
+
+</manifest>
