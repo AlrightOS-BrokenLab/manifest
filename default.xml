@@ -1053,6 +1053,6 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
   <include name="snippets/alright.xml" />
-
+  <include name="snippets/lmodroid.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
