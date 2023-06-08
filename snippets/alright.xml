@@ -18,4 +18,7 @@
     <!-- Apps -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alright-broken" />
     <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="alright-broken" />
+
+    <!-- Sepolicy -->
+    <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alright-broken" />
 </manifest>
