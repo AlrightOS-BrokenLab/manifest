@@ -13,7 +13,7 @@
     <project path="frameworks/base" name="frameworks_base" remote="alright-broken" />
     
     <!-- Overlays -->
-    <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" />
+    <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="alright-broken" />
     
     <!-- Apps -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alright-broken" />
