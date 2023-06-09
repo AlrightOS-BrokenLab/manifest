@@ -4,7 +4,7 @@
     <project path="android" name="platform_manifest" remote="alright-broken"/>
 
     <!-- Vendor -->
-    <project path="vendor/lineage" name="vendor_lineage" remote="alright-broken" />
+    <project path="vendor/alright" name="vendor_alright" remote="alright-broken" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="alright-broken" />
