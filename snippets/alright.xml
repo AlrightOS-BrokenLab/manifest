@@ -3,18 +3,28 @@
     <!-- Manifest -->
     <project path="android" name="manifest" remote="alright-broken"/>
 
+    <project path="build/make" name="build_make" groups="pdk" remote="alright-broken">
+      <copyfile src="core/root.mk" dest="Makefile" />
+      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+      <linkfile src="core" dest="build/core" />
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+      <linkfile src="target" dest="build/target" />
+      <linkfile src="tools" dest="build/tools" />
+    </project>
+
     <!-- Vendor -->
     <project path="vendor/alright" name="vendor_alright" remote="alright-broken" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="alright-broken" />
-    
+
     <!-- Frameworks -->
     <project path="frameworks/base" name="frameworks_base" remote="alright-broken" />
-    
+
     <!-- Overlays -->
     <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="alright-broken" />
-    
+
     <!-- Apps -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alright-broken" />
     <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="alright-broken" />
