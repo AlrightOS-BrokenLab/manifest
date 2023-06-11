@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Manifest -->
-    <project path="android" name="platform_manifest" remote="alright-broken"/>
+    <project path="android" name="manifest" remote="alright-broken"/>
 
     <!-- Vendor -->
     <project path="vendor/alright" name="vendor_alright" remote="alright-broken" />
