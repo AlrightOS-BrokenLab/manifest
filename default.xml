@@ -15,7 +15,7 @@
           
   <remote  name="alright-broken"
            fetch="https://github.com/AlrightAndroid-Brokenlab"
-           revision="Q"
+           revision="12.1"
            review="" />
 
   <default revision="refs/heads/lineage-19.1"
