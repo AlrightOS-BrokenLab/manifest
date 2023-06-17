@@ -6,6 +6,27 @@ Getting started
 
 To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
+### 1.1 Installing dependencies and Repo ###
+
+Several packages are needed in order to build AlrightOS
+```
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+```
+
+Install Repo tool
+```bash
+# Make a directory where Repo will be stored and add it to the path
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+
+# Download Repo itself
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+# Make Repo executable
+$ chmod a+x ~/bin/repo
+```
+
+
 To initialize your local repository using the AlrightOS trees, use a command like this:
 ```
 repo init -u https://github.com/AlrightOS-BrokenLab/manifest.git -b 12.1 --git-lfs
